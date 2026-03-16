@@ -1,4 +1,6 @@
-venv
-go_nogo_app.egg-info
-.pytest_cache
-__pycache__
+venv/
+*.egg-info/
+__pycache__/
+*.pyc
+*.db
+.DS_Store

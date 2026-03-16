@@ -1,2 +1,0 @@
-[console_scripts]
-go-nogo = go_nogo_app.main:main
