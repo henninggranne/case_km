@@ -1,0 +1,4 @@
+venv
+go_nogo_app.egg-info
+.pytest_cache
+__pycache__
