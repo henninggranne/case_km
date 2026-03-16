@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "go_nogo_app"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "requests",
+    "plotly",
+    "pytest",
+]
+
+[project.scripts]
+go-nogo = "go_nogo_app.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["go_nogo_app*"]

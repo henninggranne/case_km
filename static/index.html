@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>GO/NO-GO Forecast Report</h1>
+
+    <!-- Plot section - filled by Plotly in script.js -->
+    <div id="plot"></div>
+
+    <script src="script.js"></script>
+    <h1>
+        Total GO hours
+        <p><span id = "go-hours"></span> hours</p>
+       
+    </h1>
+    <h1>
+        Total NO-GO hours
+        <p><span id = "nogo-hours"></span> hours</p>
+    </h1>
+    <h1>
+        Longest GO window
+        <p><span id = "go-streak"></span> hours</p>
+    </h1>
+    <h1>
+        Maximum wave height for forecast
+        <p><span id = "max-wave-height"></span> m</p>
+    </h1>
+</body>
+</html>
